@@ -1,0 +1,9 @@
+enable ES Lint extension
+- either for the workspace
+- (or) globally
+
+
+./node_modules/.bin/eslint --init
+
+npx eslint .
+npx eslint --fix .

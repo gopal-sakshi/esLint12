@@ -1,0 +1,29 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "globals": {
+        "jing24":"readonly",
+        "jing25":true
+    },
+    "rules": {
+        "no-console":"off",
+        "indent":"warn",
+        "no-unused-vars": [
+            "warn", 
+            { 
+                "vars": "local", 
+                "args": "after-used", 
+                "ignoreRestSiblings": false 
+            }
+        ],
+        "semi":"warn",
+        "no-unneeded-ternary":"warn"
+    }
+}
